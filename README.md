@@ -1,4 +1,4 @@
-[GA logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
+![GA logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
 ### wdi-cc
 
@@ -13,15 +13,13 @@ Prerequisites: Github, git, HTML, CSS
 
 ---
 
-
-
-Submit your homework sometime **tonight** between **7 - 11pm CST** so that you can ask questions if you have them.
-
 ## Part 1 - Github
 
-1. Create a file inside of the Week_One homework folder called `homework2_answers.md` and answer the questions below. Commit your work at each point when directed.
+1. Create a directory inside of today's folder called `github-lab`. In that directory create a file `github-lab-answers.md` and answer the questions below. Commit your work at each point when directed.
 
 2. Look at the questions below and answer them as you complete this tutorial: <https://try.github.io>
+
+3. This tutorial is also great for learning git: http://gitimmersion.com/ It's fairly long, but don't feel like you need to pick it all up in one sitting—you can come back to it.
 
 #### Answer the following questions</summary>
 
@@ -74,9 +72,9 @@ Watch [this video on HTML](https://www.youtube.com/watch?v=DxhXFpsN5I4&index=1&l
 
 #### Setup your folder and files
 
-1. Inside your Week_One homework, create a new folder called `resume_page`.
+1. Inside the `github-lab` directory, create a new directory called `resume_page`.
 1. Change directories to `resume_page`. Create two files: `index.html` and `style.css`.<br>
-1. Using Atom, open your files and add the HTML boilerplate code.<br>
+1. Using Sublime, open your files and add the HTML boilerplate code.<br>
 1. Create a heading level-one tag with your name.<br>
 1. Open the `index.html` in your browser to confirm that everything is set up properly.
 Reminder: To open your file with your browser, from the command line, type `open index.html`
@@ -134,14 +132,15 @@ The commit message should read: <br>
 ## Part 4 - Loops
 #### Stay Fresh! Looping with Javascript
 
-1. In this folder, create a `loops.js` file which you will run execute with node.
-1. Inside the loops.js file, create a loop that logs the numbers from 0-99 (ascending)
-1. Inside the loops.js file, create a loop that logs the numbers from 99-0 (descending)
-1. Inside the loops.js file, create a loop that logs the **EVEN** numbers from 0-98 (ascending)
-1. Inside the loops.js file, create a loop that logs the **EVEN** numbers from 98-0 (descending)
-1. Inside the loops.js file, create a loop that logs the numbers from 49-72 (ascending)
-1. Inside the loops.js file, create a loop that logs the numbers from 81-26 (descending)
-1. Inside the loops.js file, create a loop that logs the numbers from 3-90 **that are multiples of 3** (ascending)
+* In the `github-lab` folder, create a directory called `loop-questions`.  In `loop-questions` directory, create our usual folder structure with the `index.html` that has the `app.js` linked up in a `<script>` tag. After each question, test your code by reloading the browser and checking the console.
+1. Create a loop that logs the numbers from 0-99, (ascending)
+2. Create a loop that logs the numbers from 99-0 (descending)
+3. Create a loop that logs the numbers from 298-1, **counting** down by 3 (the code in the loop should run 99 times)
+4. Create a loop that logs the **EVEN** numbers from 0-98 (ascending)
+5. Create a loop that logs the **ODD** numbers from 98-0 (descending)
+6. Create a loop that logs the numbers from 49-72 (ascending)
+7. Create a loop that logs the numbers from 81-26 (descending)
+8. Create a loop that logs the numbers from 1-91 **that are multiples of 3** (ascending)
 
 <hr>
 &#x1F534; **Commit your work.** <br>
@@ -155,20 +154,20 @@ The commit message should read: <br>
 - Check out this [tutorial](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit) that includes videos about using git and some challenges for you to tackle.
 
 ##### More for your site:
-1. Insert a video of your work or your favorite YouTube video ('iframe' tag)<br>
-1. Add a level-three heading above your video with a title for the section<br>
-1. Insert a table with your contact info (`table` tag)<br>
-1. Add a level-three heading above your contact info with a title for the section<br>
+* Insert a video of your work or your favorite YouTube video ('iframe' tag)<br>
+* Add a level-three heading above your video with a title for the section<br>
+* Insert a table with your contact info (`table` tag)<br>
+* Add a level-three heading above your contact info with a title for the section<br>
 
-1. Give the image a 1px black border<br>
-1. Give the body of the page a thicker border than the picture but only on the top and bottom of the page<br>
-1. Using HTML, insert a short blurb or biography with "p" tags<br>
-1. Using HTML, insert a short description above your "p" tag; use an "h3" tag<br>
-1. Make your name uppercase <strong>using CSS</strong><br>
+* Give the image a 1px black border<br>
+* Give the body of the page a thicker border than the picture but only on the top and bottom of the page<br>
+* Using HTML, insert a short blurb or biography with "p" tags<br>
+* Using HTML, insert a short description above your "p" tag; use an "h3" tag<br>
+* Make your name uppercase <strong>using CSS</strong><br>
 
-1. Insert another image of you, or an image of one of your projects, but make it round<br>
-1. Insert a button on both pages that links to opening an email to your email address<br>
-1. Style your navigation bar<br>
+* Insert another image of you, or an image of one of your projects, but make it round<br>
+* Insert a button on both pages that links to opening an email to your email address<br>
+* Style your navigation bar<br>
 
 <hr>
 &#x1F534; **Commit your work.** <br>
@@ -176,18 +175,12 @@ The commit message should read: <br>
 "Commit 10 -  Worked on Hungry for More".
 <hr>
 
-## When You're Done
 
-#### Prep for Morning Review
+## Conclusion
 
-1. Tomorrow's morning exercise will be a review, so come with questions prepared regarding git/github, terminal or anything else covered so far.
-
-#### Submission
-
- 1. Inside this folder (Week_One), you should now have a file called `answers.md`, a file called `loops.js`, and a folder called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
+ 1. Inside the `github-lab` directory, you should now have a file called `github-lab-answers.md`, a directory called `loop-questions`, and a directory called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
 
  2. You should have been adding and committing along the way, but please type `git status` one last time to make sure that everything is committed. If it's not, please commit.
 
- 3. Follow the instructions for submitting homework, found in [the wiki](https://git.generalassemb.ly/WDIplus-ATX/Wiki-Page/wiki/Homework-Submission-Guide).
 
- 4. Submit your homework sometime between **7 - 11pm CST** tonight so that you can ask questions if you have them. You can continue to work on the homework and push your solutions, but as part of your homework tonight, you should submit the issue during regular hours.
+
