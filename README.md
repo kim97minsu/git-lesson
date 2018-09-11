@@ -1,6 +1,6 @@
 ![GA logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
-### wdi-cc
+## wdi-cc
 
 # Github, HTML and CSS practice (Resume Page)
 
@@ -15,7 +15,11 @@ Prerequisites: Github, git, HTML, CSS
 
 ## Part 1 - Github
 
-1. Create a directory inside of today's folder called `github-lab`. In that directory create a file `github-lab-answers.md` and answer the questions below. Commit your work at each point when directed.
+0. **Do not fork this repository.**
+
+1. If you cloned this repository, `cd` into the folder that was created by the clone and then skip the rest of this step.  If you did *_not_* clone this repository, create a directory called `git-github-lab` in your directory for today and `cd` into it.  Initialize a git repo. (`git init`). **Do not run `git init` if you are already in a repository that you cloned**. You can check if you're already in a repo by running `git status`.  If it says `fatal: Not a git repository (or any of the parent directories): .git`, then you are **not in a repo** and it is safe to run git init.  If it says ANYTHING ELSE, then DO **NOT** run `git init`.  You do not ever want to run git init inside of an existing repo.  **No git repos inside of git repos!!!**
+
+2. In the top level of your repository, create a file `github-lab-answers.md` and answer the questions below. Commit your work at each point when directed.
 
 2. Look at the questions below and answer them as you complete this tutorial: <https://try.github.io>
 
@@ -178,7 +182,7 @@ The commit message should read: <br>
 
 ## Conclusion
 
- 1. Inside the `github-lab` directory, you should now have a file called `github-lab-answers.md`, a directory called `loop-questions`, and a directory called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
+ 1. Inside the `git-github-lab` directory, you should now have a file called `github-lab-answers.md`, a directory called `loop-questions`, and a directory called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
 
  2. You should have been adding and committing along the way, but please type `git status` one last time to make sure that everything is committed. If it's not, please commit.
 
