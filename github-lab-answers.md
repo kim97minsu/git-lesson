@@ -10,4 +10,7 @@
 
 1. git branch [branch-name]
 2. git checkout [branch-name]
-3. To combine completed efforts and update the working directory  
+3. To combine completed efforts and update the working directory 
+1. git merge [bookmark]/[branch] 
+git pull upstream master
+2. git push origin master  
